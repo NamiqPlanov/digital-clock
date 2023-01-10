@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background: url(./mountains-g629828a6e_1280.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h2{
+    text-align: center;
+    font-size: 58px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+  color: rgb(0, 0, 0);
+}
+.digital-clock{
+    display: flex;
+}
+.digital-clock div{
+    margin: 10px;
+}
+.digital-clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(10, 10, 97);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+.digital-clock #text{
+    height: 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(31, 31, 156);
+}
+.digital-clock #ampm{
+    width: 60px;
+    height: 30px;
+    font-size: 22px;
+}
